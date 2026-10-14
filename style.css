@@ -281,13 +281,13 @@ footer {
 
 .project-card {
 
-    background: #ffffff;
+    background: #171717;
 
-    padding: 25px;
+    border: 1px solid #262626;
 
-    border-radius: 15px;
+    padding: 28px;
 
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border-radius: 18px;
 
     transition: 0.3s;
 
@@ -310,12 +310,13 @@ footer {
 
 .project-card p {
 
-    line-height: 1.6;
+    color: #c7c7c7;
+
+    line-height: 1.7;
 
     margin-bottom: 20px;
 
 }
-
 
 
 .project-tech {
@@ -331,11 +332,11 @@ footer {
 }
 
 
-
 .project-tech span {
 
+    background:#262626;
 
-    background:#f0f0f0;
+    color:#d89b6b;
 
     padding:6px 12px;
 
@@ -343,6 +344,7 @@ footer {
 
     font-size:14px;
 
+    border:1px solid #333;
 
 }
 
@@ -350,13 +352,27 @@ footer {
 
 .project-btn {
 
-
     display:inline-block;
 
     padding:10px 20px;
 
-    border-radius:8px;
+    border-radius:10px;
 
     text-decoration:none;
+
+    background:#d89b6b;
+
+    color:#111;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+
+.project-btn:hover {
+
+    transform:translateY(-3px);
 
 }
