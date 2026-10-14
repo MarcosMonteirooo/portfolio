@@ -247,9 +247,22 @@ footer {
 }
 
 .contact-card {
-    display: flex;
-    flex-direction: column;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
     gap: 20px;
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+.contact-card .section-title {
+    grid-column: 1 / -1;
+    margin-bottom: 10px;
 }
 
 .contact-item {
